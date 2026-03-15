@@ -1,0 +1,15 @@
+{
+  "name": "claude-agent-loop",
+  "version": "1.0.0",
+  "description": "Agent Loop example using Claude API",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.36.3",
+    "dotenv": "^17.3.1"
+  }
+}
